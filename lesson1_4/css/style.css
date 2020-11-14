@@ -1,0 +1,90 @@
+/*Убираем все отступы*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Изменяем цвет заднего фона*/
+body{
+	background-color: #e8e8e8;
+	font-family: 'Goldman', cursive; /*шрифт*/
+}
+
+/*Размещаем контент страницы по центру*/
+.container{
+	width: 70%;
+	margin: auto;
+	background-color: white;
+}
+
+/*Размещаем картинку в шапку сайта*/
+
+.header{
+	height: 450px; /*высота шапки сайта*/
+	background-image: url(../img/1.jpg);
+	background-size: cover; /*размер картинки*/
+	background-repeat: no-repeat; /*повторение картинки*/
+}
+
+/*Изменяем картинку при наведении мышки*/
+.header:hover{
+	background-image: url(../img/2.jpg);
+	opacity: 70%; /*прозрачность*/
+}
+
+/*Стилизуем заголовок в шапке сайта*/
+.header-h1{
+	text-align: center; /*Распологаем заголовок по центру*/
+	font-size: 35px; /*Размер шрифта*/
+	letter-spacing: 10px; /*Расстояние между буквами*/
+	text-shadow: white 1px 1px 3px; /*Тень*/
+	padding-top: 150px; /*Отступ сверху*/
+}
+
+/*Меню*/
+ul{
+	text-align: center; /*Расположение по центру*/
+	padding-top: 30px; /*Отступы*/
+	padding-bottom: 30px;
+	background-color: #f4f4f2; /*Цвет фона*/
+}
+
+li{
+	display: inline-block; /*Расположение в строчку*/
+	margin-left: 50px; /*Отступ слева*/
+}
+
+li a{
+	text-decoration: none; /*Удаляем изначальное форматирование ссылки*/
+	font-size: 18px; /*Размер шрифта*/
+	text-transform: uppercase; /*Все буквы большие*/
+}
+
+/*Добавляем эффект при наведнии на ссылку*/
+
+li a:hover{
+	border-bottom: white 3px dotted; /*Обводка снизу*/
+	color: white;
+}
+
+/*Стилизуем основной блок с контентом*/
+.content{
+	padding: 55px; /*Отступы*/
+	text-align: justify; /*Выравниваем текст со всех сторон*/
+}
+
+/*Стилизуем картинку*/
+img{
+	height: 250px;/*размер*/
+	float: left; /*Обтекание текстом*/
+	margin: 25px; /*Отступы*/
+	box-shadow: #e8e8e8 3px 2px 3px; /*Тень*/
+}
+
+h2{
+	font-size: 28px;/*Размер шрифта*/
+	text-shadow: #e8e8e8 3px 2px 3px; /*Тень*/
+}
+
+
+/*Открываем сайт github.com и регистрируемся */
